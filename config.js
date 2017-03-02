@@ -17,8 +17,11 @@ System.config({
       "index.js",
       "app.js",
       "styles.css!github:systemjs/plugin-css@0.1.27.js",
-      "slider.js",
-      "slider.css!github:systemjs/plugin-css@0.1.27.js",
+      "interpolate.js",
+      "npm:debounce@1.0.0.js",
+      "npm:debounce@1.0.0/index.js",
+      "npm:date-now@1.0.1.js",
+      "npm:date-now@1.0.1/index.js",
       "npm:d3@4.2.5.js",
       "npm:d3@4.2.5/build/d3.js",
       "github:jspm/nodelibs-process@0.1.2.js",
@@ -35,6 +38,8 @@ System.config({
       "npm:ieee754@1.1.8/index.js",
       "npm:base64-js@0.0.8.js",
       "npm:base64-js@0.0.8/lib/b64.js",
+      "slider.js",
+      "slider.css!github:systemjs/plugin-css@0.1.27.js",
       "npm:virtual-dom@2.1.1.js",
       "npm:virtual-dom@2.1.1/index.js",
       "npm:virtual-dom@2.1.1/vnode/vtext.js",
@@ -120,11 +125,7 @@ System.config({
       "npm:core-js@1.2.7/library/modules/$.string-at.js",
       "load.js",
       "npm:d3-queue@3.0.3.js",
-      "npm:d3-queue@3.0.3/build/d3-queue.js",
-      "npm:debounce@1.0.0.js",
-      "npm:debounce@1.0.0/index.js",
-      "npm:date-now@1.0.1.js",
-      "npm:date-now@1.0.1/index.js"
+      "npm:d3-queue@3.0.3/build/d3-queue.js"
     ]
   },
 
